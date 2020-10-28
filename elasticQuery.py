@@ -18,7 +18,7 @@ name = 'a'
 es = Elasticsearch([{'host': 'localhost', 'port': 9200}])
 
 
-class Controller(Resource):
+class ElasticSearch(Resource):
 
     # To auto_query for every input (Use of Constructor)
     def __init__(self):
@@ -60,11 +60,10 @@ class Controller(Resource):
         res = es.search(index=name, size=0, body=self.main_query)
         return res
 
-
 parser = reqparse.RequestParser()
 parser.add_argument("query", type=str, required=True)
 
-api.add_resource(Controller, '/autocomplete')
+api.add_resource(ElasticSearch, '/autocomplete')
 
 # Run the App
 if __name__ == '__main__':
