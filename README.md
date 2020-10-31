@@ -2,8 +2,7 @@
 
 Elasticsearch can be used to search all kinds of documents. It provides scalable search, has near real-time search, and supports multitenancy. "Elasticsearch is distributed, which means that indices can be divided into shards.
 
-Source for DATA :-
-http://eforexcel.com/wp/downloads-16-sample-csv-files-data-sets-for-testing/
+Source for DATA :- Data is already loaded in Elasticsearch on index value 'a'.
 
 Problem Statement:- To develop a auto-suggestion system using Elasticsearch
 
