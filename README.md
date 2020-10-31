@@ -23,5 +23,7 @@ $ python app.py
 ```
 
 OutPut Image :- 
-<img src=outputImages/task-1.png>
+<img src=outputImages/image-1.png>
 
+OutPut Image :- 
+<img src=outputImages/image-2.png>
